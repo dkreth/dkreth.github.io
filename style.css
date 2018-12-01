@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  margin: 3%;
+  background-color:lightBlue
+}
+
+h1 {
+  color: Blue;
+}
+
+h2 {
+  color: Purple;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.left, .right {
+  width: 46vw;
+}
+
+.image-body {
+  height: 40vh;
+  width: auto;
+  margin: 3vh 0;
+  display: flex;
+}
+
+a {
+  target: "_blank";
+  target-name: new;
+  target-new: tab;
+}
