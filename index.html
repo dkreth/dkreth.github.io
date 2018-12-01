@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/style.css" type="text/css">
-    <link rel="stylesheet" href="/media-queries.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="media-queries.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
   </head>  
@@ -14,17 +14,17 @@
   <body>
     <h1>Hi! I'm Dylan.</h1>
     <p>
-      i like coding.
+      <i>i like coding.</i>
     </p>
     
     <section class="main">
-      <div class="left">
+      <div md-column-1 class="left">
         
         <h2>About</h2>
         <p>
           I'm a Computer Engineering student at the University of Texas at Dallas.
         </p>
-        <img class="image-body" src="https://cdn.glitch.com/fe2d3596-8a95-4646-b3e1-79eb30fd7e1f%2Fnew-avatar.jpg?1543683555575">
+        <img class="image-body" src="assets/avatar.jpg">
       </div>
 
       <div class="right">        
@@ -34,21 +34,37 @@
         <ul>      
           <li><h3>Red Black Tree</h3></li>
           <p>
-            I made a simple implementation of a <strong>RBT</strong> in <em>Java</em> for my Data Structures and Algorithms class. You can see it <a href="www.google.com" target="_blank">here</a>!
+            I made a simple implementation of a <strong>RBT</strong> in <em>Java</em> for my Data Structures and Algorithms class. You can see it <a href="https://github.com/dkreth/DataStructures-Project4" target="_blank">here</a>!
           </p>
           <li><h3>Chatbot</h3></li>
           <p>
             I built a chatbot in Java.
           </p>
-          <li><h3>Other</h3></li>
+          <li><h3>Raspberry Pi Test</h3></li>
           <p>
-            I also did other stuff.
+              I ran some tests on a Raspberry Pi B+ to see how fast I could capture SPI data and write it to a disk without any data loss. Check out my results <a href="https://github.com/dkreth/pi_test" target="_blank">here</a>.
           </p>
         </ul>
       </div>
 
     </section>
-    <footer><a href="https://github.com/dkreth" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></footer>
+    <footer>
+        <section class="icons">
+            <a href="https://github.com/dkreth" target="_blank">
+                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dkreth" target="_blank">
+                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/dylan.kreth" target="_blank">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://docs.google.com/document/d/1UaVnDkHxziMjJa75vtbhRbqes_ySEVeLL34WC-0GVsc/edit?usp=sharing" target="_blank">
+                <i class="fa fa-file fa-2x" aria-hidden="true"></i>
+            </a>
+        </section>
+
+    </footer>
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>

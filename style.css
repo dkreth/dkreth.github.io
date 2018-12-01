@@ -29,8 +29,11 @@ h2 {
   display: flex;
 }
 
-a {
-  target: "_blank";
-  target-name: new;
-  target-new: tab;
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.icons {
+    text-align: center;
 }
