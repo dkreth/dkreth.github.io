@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", helvetica, arial, sans-serif;
   margin: 3%;
+  color:white;
+  background-color: darkgrey;
 }
 
 
@@ -21,10 +23,6 @@ body {
   display: flex;
 }
 
-a, a:visited {
-    color: blue;
-    text-decoration: none;
-}
 
 .icons {
     text-align: center;
