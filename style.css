@@ -1,16 +1,8 @@
 body {
   font-family: "Open Sans", helvetica, arial, sans-serif;
   margin: 3%;
-  background-color:lightBlue
 }
 
-h1 {
-  color: Blue;
-}
-
-h2 {
-  color: Purple;
-}
 
 .main{
   display: flex;
