@@ -12,9 +12,14 @@ body {
   height: 70vh;
 }
 
-.left, .right {
-  width: 46vw;
+.left {
+  width: 40vw;
 }
+
+.right {
+  width: 55vw;
+}
+
 
 .image-body {
   height: 40vh;
