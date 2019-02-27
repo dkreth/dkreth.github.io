@@ -7,11 +7,14 @@
   font-weight: bolder;
 }
 
-.about, .projects {
+.about, .projects, .icons {
   font-family: Courier New, Courier, monospace;
   color: white;
   background-color: grey;
-  font-weight: bolder;
+}
+
+a {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=new_style.css.map */
