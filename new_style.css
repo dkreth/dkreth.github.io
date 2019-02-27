@@ -11,6 +11,7 @@
   font-family: Courier New, Courier, monospace;
   color: white;
   background-color: grey;
+  justify-content: space-around;
 }
 
 a {
