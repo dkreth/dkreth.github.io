@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/dkreth/dkreth.github.io/issues"
   },
-  "homepage": "https://github.com/dkreth/dkreth.github.io#readme",
+  "homepage": "https://github.com/dkreth/dkreth.github.io",
   "dependencies": {
     "node-sass": "^4.11.0"
   }
