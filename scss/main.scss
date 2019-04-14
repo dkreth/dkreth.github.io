@@ -88,6 +88,13 @@ main {
     border: $secondary-color 3px solid;
   }
 
+  .bio-text {
+    font-size: 14pt;
+    .emphasis {
+      color: $secondary-color;
+    }
+  }
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
